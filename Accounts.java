@@ -22,11 +22,18 @@ public class Accounts extends Customer{
 			}
 			
 			//get balance
-			public double getBalance() {
+			public int getBalance() {
 				return balance;
 			}
-			public double getaccountNum() {
+			public int  getaccountNum() {
 				return accountNum;
+			}
+
+			public void setaccountNum(int accountNum) {
+				this.accountNum = accountNum;
+			}
+			public void setbalance(int balance) {
+				this.balance = balance;
 			}
 		
 	}
